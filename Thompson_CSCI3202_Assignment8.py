@@ -21,6 +21,7 @@ def main (argv):
 	states, observations = importFile(argv[1])
 	hmm = HiddenMarkovModel.HiddenMarkovModel(states, observations)
 	hmm.calculateTransitionProbabilites()
+	hmm.calculateEmissionProbabilities()
 
 	return
 

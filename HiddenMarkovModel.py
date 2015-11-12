@@ -9,17 +9,20 @@ class HiddenMarkovModel():
 		self.transitionProbabilities = {}
 		self.emissionProbabilities = {}
 
-	def calculateTransitionProbabilites (self):
+	def calculateTransitionProbabilites(self):
+		# Add all states
 		for state in self.states:
 			if (not state in self.transitionProbabilities):
 				self.transitionProbabilities[state] = {}
 
+		# Count transitions
 		for x in range(len(self.states) - 1):
 			if (not self.states[x + 1] in self.transitionProbabilities[self.states[x]]):
 				self.transitionProbabilities[self.states[x]][self.states[x + 1]] = 1
 			else:
 				self.transitionProbabilities[self.states[x]][self.states[x + 1]] += 1		
 		
+		# Normalize
 		stateSum = 0.0
 		for state in self.transitionProbabilities:
 			for transitionState in self.transitionProbabilities[state]:
@@ -31,13 +34,43 @@ class HiddenMarkovModel():
 			
 			stateSum = 0.0
 
+		# Output
 		print 'Transition Probabilities'
-		print '------------------------'
+		print '------------------------\n'
 
 		for state in self.transitionProbabilities:
 			for transitionState in self.transitionProbabilities[state]:
-				print 'P(t+1 = ' + transitionState + '|t = ' + state + '): ' + str(self.transitionProbabilities[state][transitionState])
+				print 'P(X(t+1) = ' + transitionState + '|X(t) = ' + state + '): ' + str(self.transitionProbabilities[state][transitionState])
 
+	def calculateEmissionProbabilities(self):
+		# Add all states
+		for state in self.states:
+			if (not state in self.emissionProbabilities):
+				self.emissionProbabilities[state] = {}
 
+		# Count observations
+		for x in range(len(self.states)):
+			if (not self.observations[x] in self.emissionProbabilities[self.states[x]]):
+				self.emissionProbabilities[self.states[x]][self.observations[x]] = 1
+			else:
+				self.emissionProbabilities[self.states[x]][self.observations[x]] += 1
 
-		# print self.transitionProbabilities	
+		# Normalize
+		stateSum = 0.0
+		for state in self.emissionProbabilities:
+			for observation in self.emissionProbabilities[state]:
+				stateSum += self.emissionProbabilities[state][observation]
+			
+			for observation in self.emissionProbabilities[state]:
+				probability = float(self.emissionProbabilities[state][observation]) / stateSum
+				self.emissionProbabilities[state][observation] = probability
+			
+			stateSum = 0.0
+
+		# Output
+		print '\nEmission Probabilities'
+		print '----------------------\n'
+
+		for state in self.emissionProbabilities:
+			for observation in self.emissionProbabilities[state]:
+				print 'P(E(t) = ' + observation + '|X(t) = ' + state + '): ' + str(self.emissionProbabilities[state][observation])
