@@ -1,0 +1,707 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"do",
+				"doUpload	(trDashboardCtrl.js)"
+			],
+			[
+				"API",
+				"API_URL"
+			],
+			[
+				"signed",
+				"signedRequest"
+			],
+			[
+				"getsign",
+				"getSignedS3Url	(images.js)"
+			],
+			[
+				"image",
+				"imageHelper"
+			],
+			[
+				"upload",
+				"uploadToS3"
+			],
+			[
+				"ima",
+				"imageInput"
+			],
+			[
+				"brand",
+				"brand-primary"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"nav",
+				"navbar	(market.html)"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"border-bot",
+				"border-bottom-width"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"sty",
+				"stylesheets"
+			],
+			[
+				"token",
+				"tokenHelper"
+			],
+			[
+				"calc",
+				"calculateMarginalProbability"
+			],
+			[
+				"cal",
+				"calculateMarginalProbability"
+			],
+			[
+				"calcu",
+				"calculateMarginalProbability"
+			],
+			[
+				"vRil",
+				"variables"
+			],
+			[
+				"con",
+				"conditions"
+			],
+			[
+				"condtion",
+				"conditions"
+			],
+			[
+				"cond",
+				"condition"
+			],
+			[
+				"calcul",
+				"calculateConditionalProbability"
+			],
+			[
+				"prio",
+				"priorValue"
+			],
+			[
+				"distribtion",
+				"distributions"
+			],
+			[
+				"distri",
+				"distributions"
+			],
+			[
+				"ds",
+				"distribution"
+			],
+			[
+				"node",
+				"nodeName"
+			],
+			[
+				"tr",
+				"true"
+			],
+			[
+				"loge",
+				"longestPaths"
+			],
+			[
+				"lonest",
+				"longestPaths"
+			],
+			[
+				"curr",
+				"currentNode"
+			],
+			[
+				"current",
+				"currentPath"
+			],
+			[
+				"curre",
+				"currentSource"
+			],
+			[
+				"Current",
+				"currentPath"
+			],
+			[
+				"length",
+				"lengthToGo"
+			],
+			[
+				"cu",
+				"currentNode"
+			],
+			[
+				"curren",
+				"currentPath"
+			],
+			[
+				"longest",
+				"longestPaths"
+			],
+			[
+				"longes",
+				"longestPaths"
+			],
+			[
+				"worl",
+				"wordListFile"
+			],
+			[
+				"word",
+				"wordList"
+			],
+			[
+				"wor",
+				"wordList"
+			],
+			[
+				"import",
+				"importWordList"
+			],
+			[
+				"lef",
+				"leftNode"
+			],
+			[
+				"le",
+				"leftNode"
+			],
+			[
+				"a",
+				"aboveNode"
+			],
+			[
+				"bl",
+				"belowNode"
+			],
+			[
+				"right",
+				"rightNode"
+			],
+			[
+				"max",
+				"maxloop"
+			],
+			[
+				"bel",
+				"belowNode"
+			],
+			[
+				"above",
+				"aboveNode"
+			],
+			[
+				"maxim",
+				"maximumUtility"
+			],
+			[
+				"left",
+				"leftNode"
+			],
+			[
+				"util",
+				"utility"
+			],
+			[
+				"uti",
+				"utility"
+			],
+			[
+				"print",
+				"printUtilities"
+			],
+			[
+				"re",
+				"rightExpectedUtility"
+			],
+			[
+				"ab",
+				"aboveExpectedUtility"
+			],
+			[
+				"M",
+				"MDPNode"
+			],
+			[
+				"sell",
+				"sellDate"
+			],
+			[
+				"buy",
+				"buyDate"
+			],
+			[
+				"di",
+				"differenceArray"
+			],
+			[
+				"maximum",
+				"maximumSubarray"
+			],
+			[
+				"cros",
+				"crossSum"
+			],
+			[
+				"cross",
+				"crossHigh"
+			],
+			[
+				"righ",
+				"rightHigh"
+			],
+			[
+				"find",
+				"findMaximumSubarray"
+			],
+			[
+				"difference",
+				"differenceArray"
+			],
+			[
+				"differ",
+				"differenceArray"
+			],
+			[
+				"date",
+				"dateData"
+			],
+			[
+				"csv",
+				"csvData"
+			],
+			[
+				"dat",
+				"dateData"
+			],
+			[
+				"cs",
+				"csvData"
+			],
+			[
+				"diff",
+				"differenceArray"
+			],
+			[
+				"line",
+				"lineArray"
+			],
+			[
+				"world",
+				"worldFile"
+			],
+			[
+				"O",
+				"ObjectId"
+			],
+			[
+				"pr",
+				"process"
+			],
+			[
+				"running",
+				"runningTimes"
+			],
+			[
+				"sort",
+				"sortedRandomIntegers"
+			],
+			[
+				"min",
+				"minimumValue"
+			],
+			[
+				"verte",
+				"vertex2"
+			],
+			[
+				"vertex",
+				"vertex1"
+			],
+			[
+				"ver",
+				"vertices"
+			],
+			[
+				"being",
+				"beingDeleted"
+			],
+			[
+				"s",
+				"searchTree"
+			],
+			[
+				"prin",
+				"printTree"
+			],
+			[
+				"paret",
+				"parentNode"
+			],
+			[
+				"parent",
+				"parentNode"
+			],
+			[
+				"paren",
+				"parentNode"
+			],
+			[
+				"Binary",
+				"BinaryTree"
+			],
+			[
+				"Bin",
+				"Binary"
+			],
+			[
+				"int",
+				"intQ"
+			],
+			[
+				"__",
+				"__init__"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "pack",
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"p",
+				"Package Control: Install Package"
+			],
+			[
+				"beau",
+				"Javascript Beautify"
+			],
+			[
+				"beaut",
+				"Javascript Beautify"
+			],
+			[
+				"pakc",
+				"Package Control: Install Package"
+			],
+			[
+				"packagr cont",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: While Loop"
+			]
+		],
+		"width": 530.0
+	},
+	"console":
+	{
+		"height": 125.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Matt/Dropbox/Work/TradeRate/prototype/public/stylesheets/custom-bootstrap.less",
+		"/Users/Matt/Dropbox/Work/TradeRate/prototype/public/app/common/trS3Uploader.js",
+		"/Users/Matt/Dropbox/Work/TradeRate/prototype/public/app/common/trAuthToken.js",
+		"/Users/Matt/Dropbox/Work/TradeRate/prototype/server/views/scripts.jade",
+		"/Users/Matt/Dropbox/Work/TradeRate/prototype/server/helpers/token.js",
+		"/Users/Matt/Dropbox/Work/TradeRate/prototype/server/config/routes.js",
+		"/Users/Matt/Dropbox/Work/TradeRate/prototype/public/app/common/trInputToScopeDIr.js",
+		"/Users/Matt/Dropbox/Work/TradeRate/prototype/public/app/app.js",
+		"/Users/Matt/Dropbox/Work/TradeRate/prototype/public/app/dashboard/trDashboardCtrl.js",
+		"/Users/Matt/Dropbox/Work/TradeRate/prototype/public/app/common/trAuthInterceptor.js",
+		"/Users/Matt/Dropbox/Work/TradeRate/prototype/public/app/data/Item.js",
+		"/Users/Matt/Dropbox/Work/TradeRate/prototype/public/app/data/Offer.js",
+		"/Users/Matt/Dropbox/Work/TradeRate/prototype/public/app/data/Trade.js",
+		"/Users/Matt/Dropbox/Work/TradeRate/prototype/public/app/data/User.js",
+		"/Users/Matt/Dropbox/Work/TradeRate/prototype/public/app/login/trLoginCtrl.js",
+		"/Users/Matt/Dropbox/Work/TradeRate/prototype/public/app/market/trMarketCtrl.js",
+		"/Users/Matt/Dropbox/Work/TradeRate/prototype/public/app/register/trRegisterCtrl.js",
+		"/Users/Matt/Dropbox/Work/TradeRate/prototype/public/app/trade/trTradeCtrl.js",
+		"/Users/Matt/Dropbox/Work/TradeRate/prototype/public/app/common/trNotifier.js",
+		"/Users/Matt/Dropbox/Work/TradeRate/prototype/public/app/common/trNavbarCtrl.js",
+		"/Users/Matt/Dropbox/Work/TradeRate/prototype/public/app/common/trAuth.js",
+		"/Users/Matt/Dropbox/Work/TradeRate/prototype/public/app/common/strLimitFilter.js",
+		"/Users/Matt/Dropbox/Work/TradeRate/prototype/public/app/about/trAboutCtrl.js",
+		"/Users/Matt/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/Matt/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/Matt/Dropbox/Work/TradeRate/prototype/server/views/index.jade",
+		"/Users/Matt/Dropbox/Work/TradeRate/prototype/public/app/market/market.html",
+		"/Users/Matt/Dropbox/Work/TradeRate/prototype/public/app/about/faq.html",
+		"/Users/Matt/Dropbox/Work/TradeRate/prototype/public/app/about/about.html",
+		"/Users/Matt/Dropbox/Work/TradeRate/prototype/public/app/common/navbar.html",
+		"/Users/Matt/Dropbox/Work/TradeRate/prototype/public/app/dashboard/overview.html",
+		"/Users/Matt/Dropbox/Work/TradeRate/prototype/public/stylesheets/united.less",
+		"/Users/Matt/Dropbox/Work/TradeRate/prototype/public/stylesheets/custom-variables.less",
+		"/Users/Matt/Dropbox/Work/TradeRate/prototype/public/stylesheets/traderate.css",
+		"/Users/Matt/Dropbox/Work/TradeRate/prototype/public/app/dashboard/sidebar.html",
+		"/Users/Matt/Library/Application Support/Sublime Text 3/Packages/CodeFormatter/CodeFormatter.sublime-settings",
+		"/Users/Matt/Dropbox/Work/TradeRate/prototype/server/models/User.js",
+		"/Users/Matt/Dropbox/Work/TradeRate/prototype/server/views/layout.jade",
+		"/Users/Matt/Dropbox/Work/TradeRate/prototype/server/controllers/users.js",
+		"/Users/Matt/Dropbox/Work/TradeRate/prototype/public/images/logo.png",
+		"/Users/Matt/Dropbox/Work/TradeRate/prototype/public/vendor/bootstrap/less/alerts.less",
+		"/Users/Matt/Dropbox/Work/TradeRate/prototype/Makefile",
+		"/Users/Matt/Library/Application Support/Sublime Text 3/Packages/CodeFormatter/Default (OSX).sublime-keymap",
+		"/Users/Matt/Library/Application Support/Sublime Text 3/Packages/Javascript Beautify/JavascriptBeautify.sublime-settings",
+		"/Users/Matt/Dropbox/Work/TradeRate/prototype/public/vendor/toastr/toastr.js",
+		"/Users/Matt/Library/Application Support/Sublime Text 3/Packages/LESS/LESS.sublime-settings",
+		"/Users/Matt/Dropbox/Work/TradeRate/prototype/server/helpers/images.js",
+		"/Users/Matt/Dropbox/Work/TradeRate/prototype/server/helpers/authentication.js",
+		"/Users/Matt/Dropbox/Work/TradeRate/prototype/public/app/trade/offerModal.html",
+		"/Users/Matt/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/Matt/Dropbox/Work/TradeRate/prototype/main.js",
+		"/Users/Matt/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/Matt/Dropbox/School/Intro to Artificial Intelligence/assignments/assignment6/Thompson_CSCI3202_Assignment6/BNNode.py",
+		"/Users/Matt/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/Matt/Dropbox/School/Intro to Artificial Intelligence/assignments/assignment6/Thompson_CSCI3202_Assignment6/getoptExample.py",
+		"/Users/Matt/Dropbox/School/Intro to Artificial Intelligence/assignments/assignment1/Thompson_CSCI3202_Assignment1/Graph.py",
+		"/Users/Matt/Dropbox/School/Algorithms/assignments/assignment5/Thompson_Matthew_HW5.py",
+		"/Users/Matt/Dropbox/School/Algorithms/assignments/assignment3/Thompson_Matthew_HW3.py",
+		"/Users/Matt/Dropbox/School/Algorithms/assignments/assignment3/apple.csv",
+		"/Users/Matt/Dropbox/School/Algorithms/assignments/assignment3/.googl.csv",
+		"/Users/Matt/Dropbox/School/Intro to Artificial Intelligence/assignments/assignment3/Thompson_CSCI3202_Assignment3/Thompson_CSCI3202_Assignment3.py",
+		"/Users/Matt/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/Matt/Dropbox/School/Algorithms/assignments/assignment3/untitled.sublime-project",
+		"/Users/Matt/Dropbox/School/Intro to Artificial Intelligence/assignments/assignment3/Thompson_CSCI3202_Assignment3/AStarNode.py",
+		"/Users/Matt/Dropbox/School/Intro to Artificial Intelligence/assignments/assignment1/Thompson_CSCI3202_Assignment1/Node.py",
+		"/Users/Matt/Dropbox/School/Intro to Artificial Intelligence/assignments/assignment1/Thompson_CSCI3202_Assignment1/Thompson_Assignment1.py",
+		"/Users/Matt/Dropbox/School/Intro to Artificial Intelligence/assignments/assignment3/Thompson_CSCI3202_Assignment3/untitled.sublime-project",
+		"/Users/Matt/Dropbox/Work/TradeRate/prototype/server/models/Item.js",
+		"/Users/Matt/Dropbox/Work/TradeRate/prototype/server/models/Image.js",
+		"/Users/Matt/Dropbox/Work/TradeRate/prototype/server/controllers/items.js",
+		"/Users/Matt/Dropbox/Work/TradeRate/prototype/server/config/config.js",
+		"/Users/Matt/Dropbox/School/Intro to Artificial Intelligence/assignments/assignment1/Thompson_CSCI3202_Assignment1/BinaryTree.py",
+		"/Users/Matt/Dropbox/School/Intro to Artificial Intelligence/assignments/assignment1/Thompson_CSCI3202_Assignment1/.gitignore",
+		"/Users/Matt/Dropbox/School/Intro to Artificial Intelligence/assignments/assignment1/Thompson_CSCI3202_Assignment1/README.md",
+		"/Users/Matt/Dropbox/School/Intro to Artificial Intelligence/assignments/assignment1/Thompson_CSCI3202_Assignment1/IntQueue.py",
+		"/Users/Matt/Dropbox/School/Intro to Artificial Intelligence/assignments/assignment1/Thompson_CSCI3202_Assignment1/Thompson_CSCI3203_Assignment1.sublime-project",
+		"/Users/Matt/Dropbox/Personal/Training/mean/server/includes/scripts.jade",
+		"/Users/Matt/Dropbox/Personal/Training/mean/server/includes/layout.jade",
+		"/Users/Matt/Dropbox/Personal/Training/mean/server/views/index.jade",
+		"/Users/Matt/Dropbox/Personal/Training/mean/public/app/app.js",
+		"/Users/Matt/Dropbox/Personal/Training/mean/public/app/main/new-courses.jade",
+		"/Users/Matt/Dropbox/Personal/Training/mean/public/app/main/maMainCtrl.js",
+		"/Users/Matt/Dropbox/Personal/Training/mean/public/app/main/main.jade",
+		"/Users/Matt/Dropbox/Personal/Training/mean/public/app/main/featured-courses.jade",
+		"/Users/Matt/Dropbox/Personal/Training/mean/public/app/account/navbar-login.jade",
+		"/Users/Matt/Dropbox/Personal/Training/mean/public/app/account/maNavbarLoginCtrl.js",
+		"/Users/Matt/Dropbox/Personal/Training/mean/server.js",
+		"/Users/Matt/Desktop/lab1"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"block-td",
+			"x-amz-acl",
+			"aws",
+			"<",
+			"find",
+			"ng-controller",
+			"strLimit",
+			"100",
+			"navbar-text",
+			"sm",
+			"@navbar-margin-bottom",
+			"navbar",
+			"@font-face",
+			"navbar-brand img",
+			"img src",
+			"text",
+			"jumbo",
+			"Ubuntu",
+			"authHelper",
+			"authentication.js",
+			"a",
+			"o",
+			"descendants",
+			"descendents",
+			"neighbors",
+			"wordList",
+			"tab",
+			"next",
+			"Item.find()",
+			"process.env.SECRET",
+			"process.env",
+			"proccess.env",
+			"raise",
+			"ra",
+			"raise",
+			"&&",
+			"subtree"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"AWS",
+			"arguments",
+			"option",
+			"neighbors",
+			"descendants",
+			"descendents",
+			"and",
+			"parentNode"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Thompson_CSCI3202_Assignment8.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 210.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
