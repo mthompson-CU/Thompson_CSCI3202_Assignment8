@@ -22,6 +22,7 @@ def main (argv):
 	hmm = HiddenMarkovModel.HiddenMarkovModel(states, observations)
 	hmm.calculateTransitionProbabilites()
 	hmm.calculateEmissionProbabilities()
+	hmm.calculateMarginalProbabilities()
 
 	return
 

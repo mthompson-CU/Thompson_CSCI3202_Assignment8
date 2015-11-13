@@ -8,6 +8,7 @@ class HiddenMarkovModel():
 		self.observations = observations
 		self.transitionProbabilities = {}
 		self.emissionProbabilities = {}
+		self.marginalProbabilities = {}
 
 	def calculateTransitionProbabilites(self):
 		# Add all states
@@ -22,14 +23,14 @@ class HiddenMarkovModel():
 			else:
 				self.transitionProbabilities[self.states[x]][self.states[x + 1]] += 1		
 		
-		# Normalize
+		# Normalize and smooth
 		stateSum = 0.0
 		for state in self.transitionProbabilities:
 			for transitionState in self.transitionProbabilities[state]:
 				stateSum += self.transitionProbabilities[state][transitionState]
 			
 			for transitionState in self.transitionProbabilities[state]:
-				probability = float(self.transitionProbabilities[state][transitionState]) / stateSum
+				probability = float(self.transitionProbabilities[state][transitionState] + 1) / (stateSum + 27)
 				self.transitionProbabilities[state][transitionState] = probability
 			
 			stateSum = 0.0
@@ -55,14 +56,14 @@ class HiddenMarkovModel():
 			else:
 				self.emissionProbabilities[self.states[x]][self.observations[x]] += 1
 
-		# Normalize
+		# Normalize and smooth
 		stateSum = 0.0
 		for state in self.emissionProbabilities:
 			for observation in self.emissionProbabilities[state]:
 				stateSum += self.emissionProbabilities[state][observation]
 			
 			for observation in self.emissionProbabilities[state]:
-				probability = float(self.emissionProbabilities[state][observation]) / stateSum
+				probability = float(self.emissionProbabilities[state][observation] + 1) / (stateSum + 27)
 				self.emissionProbabilities[state][observation] = probability
 			
 			stateSum = 0.0
@@ -74,3 +75,27 @@ class HiddenMarkovModel():
 		for state in self.emissionProbabilities:
 			for observation in self.emissionProbabilities[state]:
 				print 'P(E(t) = ' + observation + '|X(t) = ' + state + '): ' + str(self.emissionProbabilities[state][observation])
+
+	def calculateMarginalProbabilities(self):
+		# Add all states
+		for state in self.states:
+			if (not state in self.marginalProbabilities):
+				self.marginalProbabilities[state] = 1
+			else:
+				self.marginalProbabilities[state] += 1
+
+		# Normalize
+		statesSum = 0.0
+		for state in self.marginalProbabilities:
+			statesSum += self.marginalProbabilities[state]
+
+		for state in self.marginalProbabilities:
+			self.marginalProbabilities[state] = float(self.marginalProbabilities[state]) / statesSum
+
+		# Output
+		print '\nMarginal Probabilities'
+		print '----------------------\n'
+
+		for state in self.marginalProbabilities:
+			print 'P(X[0] = ' + state + '): ' + str(self.marginalProbabilities[state])
+
